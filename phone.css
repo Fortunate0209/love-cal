@@ -1,0 +1,122 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+
+@media screen and (max-width: 475px){
+    
+body {
+    background-image: url(images/pexels-monstera-production-5874620.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+
+  button {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    position: absolute;
+    left: 120px;
+    width: 10em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+   }
+   
+   button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   button:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   button:disabled {
+    cursor: auto;
+    color: grey;
+   }
+  
+  .btn-1 {
+    justify-content: center;
+  }
+  
+  #show {
+    margin-top: 100px;
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+    color: #ffffff;
+    width: 70px;
+    padding: 20px;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    display: none;
+  }
+
+  .slabo-27px-regular {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(images/pexels-monstera-production-5874620.jpg);
+    background-size: cover;
+  }
+  
+  .love h4 {
+    color: #ffffff;
+    font-family: "Slabo 27px", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .love p {
+    color: #ffffff;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .love-input {
+    margin-top: 20px;
+    width: 100px;
+  }
+  
+  .love-input input {
+    width: 350px;
+    padding: 20px;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  #errorMsg {
+    display: none;
+  }
+}
+
+
+
+
+  
